@@ -11,7 +11,7 @@ $(document).ready(function(){
       setTimeout(function(){
          $('#instructions').hide();
          $('#game').show();
-      },1000);
+      },3000);
     });
 
     $('.imgs').hover(function(){
@@ -87,7 +87,7 @@ $(document).ready(function(){
             this.losses = parseInt($('#loss').attr('val')) + 1;
             $('#loss').text(this.losses);
             console.log("loos "+this.losses);
-            var num2 = Math.floor(Math.random()*4)+1;
+            var num2 = Math.floor(Math.random()*3)+1;
             console.log("num2 "+num2);
              $('#imgGif').attr('src','assets/images/loss'+num2+'.gif');
              console.log($('#imgGif').attr('src'));

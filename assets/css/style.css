@@ -125,3 +125,14 @@
 	width: 600px;
 	background-color: red;
 }
+
+marquee {
+	font-size: 40px;
+}
+
+body {
+	background: url('../images/background.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
