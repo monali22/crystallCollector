@@ -1,0 +1,127 @@
+.round-button {
+	box-sizing: border-box;
+	display:block;
+	width:80px;
+	height:80px;
+	padding-top: 14px;
+	padding-left: 8px;
+	line-height: 20px;
+	border: 6px solid #fff;
+	border-radius: 50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background-color: rgba(0,0,0,0.5);
+	font-size:20px;
+	font-weight:bold;
+	transition: all 0.3s ease;
+}
+.round-button:hover {
+	background-color: rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 10px rgba(255,255,100,1);
+	text-shadow: 0px 0px 10px rgba(255,255,100,1);
+}
+#start{
+    height: 300px;
+    width: 600px;
+    background: pink;
+    border-style:solid;
+    border-width: 3px;
+    border-color: blue;
+    margin: 15% 0% 0% 25%;
+}
+
+#pButton {
+    padding: 17% 0% 0% 45%
+}
+
+#instructions{
+    height: 300px;
+    width: 600px;
+    background: green;
+    border-style:solid;
+    border-width: 3px;
+    border-color: blue;
+    margin: 15% 0% 0% 25%;
+}
+
+#game {
+	height: 620px;
+    width: 1200px;
+    background:beige;
+    border-style:solid;
+    border-width: 3px;
+    border-color: green;
+    margin: 0% 0% 0% 2%;
+}
+
+#randomNum {
+	height: 300px;
+	width: 300px;
+	background: red;
+	margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+}
+
+#Score{
+	height: 300px;
+	width: 300px;
+	background: blue;
+	margin-left: 80px;
+	margin-top: 10px;
+	float: left;
+	
+
+}
+
+#winLose{
+	height: 300px;
+	width: 300px;
+	background: yellow;
+	margin-left: 850px;
+	margin-top: 10px;
+	position: absolute;
+	
+	
+}
+
+.gameScreen{
+	padding: 10%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	position: relative;
+}
+
+.imgs{
+	height: 200px;
+	width: 200px;
+	border-style:solid;
+    border-width: 3px;
+	border-color: green;
+	float: left;
+	margin-right: 3%;
+}
+
+#crystalls{
+	margin-left: 10%;
+	clear: both;
+	padding-top: 5%
+}
+
+#gifImg{
+	height: 300px;
+    width: 600px;
+    /* background: green; */
+    border-style:solid;
+    border-width: 3px;
+    border-color: blue;
+    margin: 15% 0% 0% 25%;
+
+}
+
+#imgGif{
+	height: 300px;
+	width: 600px;
+	background-color: red;
+}
